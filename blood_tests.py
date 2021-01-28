@@ -12,7 +12,12 @@ def check_HDL(val):
 	elif val > 40 : return "Borlerline Low"
 	else: return "Low"
 
+def output(x):
+	print(x)
+
+def HDL_driver():
+	in = input("Enter the HDL")
+	output(check_HDL(in))
 
 
-
-interface()
+check_HDL()
